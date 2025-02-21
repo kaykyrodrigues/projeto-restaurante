@@ -5,68 +5,89 @@
     font-family: Montserrat, Arial, Helvetica, sans-serif;
     margin: 0;
     color: white;
+    text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.071);
 }
 
 header{
     background-color: #155472;
-    margin: auto;
-    padding: 2em;
-    text-indent: 50px;
+    padding: 40px;
+    box-shadow: inset 6px 6px 13px #0000004f;
+    position: sticky;
+    top: 0;
+    
+    /* O "position: sticky" + o "top: 0" tornam o header fixo*/
 }
 
 header > nav{
+    margin: auto;
     text-align: center;
-    
 }
 
 a{
     color: #F7F2EB;
     text-decoration: none;
     padding: 10px;
+    padding-left: 20px;
 }
 
-a.botão{
+a.botao2{
     text-align: center;
-    font-size: 10px;
+    font-size: 15px;
+    padding-left: 8px;
+    padding-right: 8px;
     background-color: #EEBC69;
     border-top: 31px;
-    border-bottom-right-radius: 20px 20px 20px;
     border-radius: 30px;
 }
 
+section{
+    text-shadow: 1px solid black;
+    box-shadow: inset 6px 6px 13px #0000004f;
+}
+
 section.ciano{
-    text-justify: auto;
-    text-align: center;
     background-color: #155472;
-    padding: 150px;
+    padding: 13vw;
 }
 
 section.ciano > h2{
+    text-align: center;
     font-size: 3em;
     margin: 0px;
+}
+
+section.ciano > p{
+    font-size: 16px;
+    text-align: justify;
 }
 
 section.img{
     margin: 0px;
-    padding: 200px;
-    font-size: 3em;
-    text-align: left;
+    text-align: center;
+    font-size: 4vw;
 }
 
 section#img01{
+    padding: 17vw;
     background-image: url('estilo/imagens/image001.jpg');
     background-size: cover;
     background-attachment: fixed;
 }
 
 section#img02{
-    padding: 140px;
+    padding: 13vw;
     background-image: url('estilo/imagens/image002.jpg');
     background-size: cover;
-    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
+
+section#img02 > p{
+    font-size: 16px;
+    text-align: justify;
 }
 
 section#img03{
+    padding: 20vw;
     background-image: url('estilo/imagens/image003.jpg');
     background-size: cover;
     background-attachment: fixed;
@@ -80,7 +101,11 @@ section#img03 > p{
 }
 
 footer{
-    padding: 50px;
+    padding: 4vw;
     text-align: center;
     background-color: #155472;
+}
+
+footer > p{
+    padding-bottom: 15px;
 }
