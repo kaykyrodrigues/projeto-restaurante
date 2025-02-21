@@ -1,0 +1,85 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+body{
+    font-family: Montserrat, Arial, Helvetica, sans-serif;
+    margin: 0;
+    color: white;
+}
+
+header{
+    background-color: #155472;
+    margin: auto;
+    padding: 2em;
+    text-indent: 50px;
+}
+
+header > nav{
+    text-align: center;
+}
+
+a{
+    color: #F7F2EB;
+    text-decoration: none;
+    padding: 10px;
+}
+
+a.botão{
+    text-align: center;
+    font-size: 10px;
+    background-color: #EEBC69;
+    border-top: 31px;
+    border-bottom-right-radius: 20px 20px 20px;
+    border-radius: 30px;
+}
+
+section.ciano{
+    text-justify: auto;
+    text-align: center;
+    background-color: #155472;
+    padding: 150px;
+}
+
+section.ciano > h2{
+    font-size: 3em;
+    margin: 0px;
+}
+
+section.img{
+    margin: 0px;
+    padding: 200px;
+    text-align: center;
+    font-size: 3em;
+}
+
+section#img01{
+    background-image: url('estilo/imagens/image001.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+section#img02{
+    padding: 140px;
+    background-image: url('estilo/imagens/image002.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+section#img03{
+    background-image: url('estilo/imagens/image003.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+section#img03 > p{
+    text-align: center;
+    background-color: #155472;
+    padding: 100px;
+    display: inline-block;
+}
+
+footer{
+    padding: 50px;
+    text-align: center;
+    background-color: #155472;
+}
