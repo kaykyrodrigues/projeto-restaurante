@@ -47,7 +47,7 @@ section{
 
 section.ciano{
     background-color: #155472;
-    padding: 13vw;
+    padding: 11vw;
 }
 
 section.ciano > h2{
@@ -59,6 +59,9 @@ section.ciano > h2{
 section.ciano > p{
     font-size: 16px;
     text-align: justify;
+    padding-top: 10px;
+    margin: auto;
+    width: 400px;
 }
 
 section.img{
@@ -74,16 +77,30 @@ section#img01{
     background-attachment: fixed;
 }
 
+h1:hover{
+    color: #EEBC69;
+    transition-duration: 2s;
+}
+
 section#img02{
     padding: 13vw;
     background-image: url('estilo/imagens/image002.jpg');
     background-size: cover;
+    background-attachment: fixed;
     background-repeat: no-repeat;
+}
+
+section#img02 > h2:hover{
+    color: #EEBC69;
+    transition-duration: 2s;
 }
 
 section#img02 > p{
     font-size: 16px;
     text-align: justify;
+    padding-top: 10px;
+    margin: auto;
+    width: 400px;
 }
 
 section#img03{
