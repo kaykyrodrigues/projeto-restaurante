@@ -22,14 +22,18 @@ header {
     background-color: #155472;
 
     display: flex;
+    flex-flow: row wrap;
     justify-content: space-evenly;
+}
+
+header > nav {
 }
 
 header > nav > a {
     color: #F7F2EB;
     text-decoration: none;
     margin: 7px;
-    font-size: 0.75em;
+    font-size: 0.65em;
 }
 
 a.botao2 {
