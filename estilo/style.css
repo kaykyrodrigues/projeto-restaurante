@@ -21,6 +21,10 @@ Areia: #EEBC69
 header {
     padding: 30px;
     background-color: #155472;
+    position: sticky;
+    top: 0;
+    text-shadow: 1px solid black;
+    box-shadow: inset 6px 6px 13px #0000004f;
 
     display: flex;
     flex-flow: row nowrap;
@@ -64,6 +68,9 @@ section {
     display: flex;
 }
 
+
+
+
 section.ciano{
     background-color: #155472;
     padding: 50px;
@@ -81,6 +88,60 @@ section.ciano > p {
     margin: 10px;
 
 }
+
+section.ciano > p.opc {
+    align-self: center;
+}
+
+p.opc:hover {
+    background-color: #F7F2EB;
+    color: #155472;
+    padding: 6px;
+    border-radius: 6px;
+    transition: .4s;
+}
+
+section.ciano > p#ip1 {
+    height: 20vh;
+    background-image: url(imagens/imp01.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 5px;
+}
+
+section.ciano > p#ip2 {
+    height: 20vh;
+    background-image: url(imagens/imp02.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 5px;
+}
+
+section.ciano > p#ip3 {
+    height: 20vh;
+    background-image: url(imagens/imp03.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 5px;
+}
+
+section.ciano > a#order {
+    align-self: center;
+    margin: 10px;
+    padding: 6px;
+    border-radius: 6px;
+    background-color: #EEBC69;
+    color: #F7F2EB;
+    text-decoration: none;
+}
+
+section.ciano > a#order:hover {
+    background-color: #F7F2EB;
+    color: #EEBC69;
+    transition: .4s;
+}
+
+
 
 section.img {
     display: flex;
@@ -103,4 +164,19 @@ section#img01 {
     height: 20vh;
     background-size: cover;
     background-image: url(imagens/image001.jpg);
+}
+
+section#img02 {
+    height: 30vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: url(imagens/image002.jpg);
+}
+
+section#img02 > h2 {
+    align-self: center;
+    font-size: 2em;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: #155472;
 }
