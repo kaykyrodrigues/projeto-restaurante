@@ -1,5 +1,4 @@
 @charset "UTF-8";
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
 
 /* Paleta
 
@@ -17,3 +16,25 @@ Areia: #EEBC69
     text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.071);
 }
 
+
+header {
+    padding: 30px;
+    background-color: #155472;
+
+    display: flex;
+    justify-content: space-evenly;
+}
+
+header > nav > a {
+    color: #F7F2EB;
+    text-decoration: none;
+    margin: 7px;
+    font-size: 0.75em;
+}
+
+a.botao2 {
+    background-color: #EEBC69;
+    color: #F7F2EB;
+    border-radius: 5px;
+    padding: 5px;
+}
