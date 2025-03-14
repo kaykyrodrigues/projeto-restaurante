@@ -35,7 +35,7 @@ header > nav > a {
     color: #F7F2EB;
     text-decoration: none;
     margin: 7px;
-    font-size: 0.80em;
+    font-size: 0.76em;
 }
 
 a.botao1:hover {
@@ -82,15 +82,18 @@ section.ciano{
 
 section.ciano > h2 {
     align-self: center;
+    font-size: 1.5em;
 }
 
 section.ciano > p {
     margin: 10px;
-
+    font-size: 0.90em;
+    text-shadow: 1px solid black;
 }
 
 section.ciano > p.opc {
     align-self: center;
+    text-shadow: 1px solid black;
 }
 
 p.opc:hover {
@@ -179,4 +182,28 @@ section#img02 > h2 {
     padding: 10px;
     border-radius: 5px;
     background-color: #155472;
+}
+
+section#img03 {
+
+    height: 40vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: url(imagens/image003.jpg);
+}
+
+section#img03 > h2 {
+    align-self: center;
+    align-items: center;
+    background-color: #155472;
+    padding: 30px;
+}
+
+section#img03 > p#logo {    
+
+    width: 30px;
+    background-color: #155472;
+    background-image: url(imagens/logos.png);
+    background-size: contain;
+    background-repeat: no-repeat;
 }
