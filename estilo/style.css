@@ -17,14 +17,3 @@ Areia: #EEBC69
     text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.071);
 }
 
-header {
-    background-color: #155472;
-
-    display: flex;
-    justify-content: space-between;
-}
-
-header > nav > a {
-    color: #F7F2EB;
-    text-decoration: none;
-}
