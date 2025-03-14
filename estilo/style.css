@@ -14,6 +14,7 @@ Areia: #EEBC69
     padding: 0px;
     color: black;
     text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.071);
+    color: #F7F2EB;
 }
 
 
@@ -24,9 +25,6 @@ header {
     display: flex;
     flex-flow: row nowrap;
     justify-content: space-evenly;
-}
-
-header > nav {
 }
 
 header > nav > a {
@@ -41,4 +39,53 @@ a.botao2 {
     color: #F7F2EB;
     border-radius: 5px;
     padding: 5px;
+}
+
+section {
+    text-shadow: 1px solid black;
+    box-shadow: inset 6px 6px 13px #0000004f;
+
+    display: flex;
+}
+
+section.ciano{
+    background-color: #155472;
+    padding: 50px;
+
+
+    flex-flow: column wrap;
+    justify-content: center;
+}
+
+section.ciano > h2 {
+    align-self: center;
+}
+
+section.ciano > p {
+    margin: 10px;
+
+}
+
+section.img {
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+
+
+    box-shadow: inset 6px 6px 13px #0000004f;
+}
+
+section.img > h1 {
+    align-self: center;
+    text-shadow: 2px solid rgb(0, 0, 0);
+    font-size: 2em;
+
+}
+
+section#img01 {
+    height: 30vh;
+    background-size: auto;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-image: url(imagens/image001p.jpg);
 }
