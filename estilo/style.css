@@ -30,7 +30,7 @@ header > nav > a {
     color: #F7F2EB;
     text-decoration: none;
     margin: 7px;
-    font-size: 0.90em;
+    font-size: 0.85em;
 }
 
 a.botao1:hover {
@@ -89,15 +89,14 @@ section.img {
 
 section.img > h1 {
     align-self: center;
-    text-shadow: 2px solid rgb(0, 0, 0);
+    color: #F7F2EB;
+    text-shadow: 5px solid rgb(0, 0, 0);
     font-size: 2em;
 
 }
 
 section#img01 {
     height: 30vh;
-    background-size: auto;
-    background-attachment: fixed;
-    background-repeat: no-repeat;
-    background-image: url(imagens/image001p.jpg);
+    background-size: cover;
+    background-image: url(imagens/image001.jpg);
 }
