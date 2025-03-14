@@ -17,20 +17,21 @@ Areia: #EEBC69
     color: #F7F2EB;
 }
 
+
 header {
     padding: 30px;
     background-color: #155472;
 
     display: flex;
     flex-flow: row nowrap;
-    justify-content: space-evenly;
+    justify-content: center;
 }
 
 header > nav > a {
     color: #F7F2EB;
     text-decoration: none;
     margin: 7px;
-    font-size: 0.85em;
+    font-size: 0.80em;
 }
 
 a.botao1:hover {
@@ -53,6 +54,9 @@ a.botao2:hover {
     color: #EEBC69;
     transition: .4s;
 }
+
+
+
 section {
     text-shadow: 1px solid black;
     box-shadow: inset 6px 6px 13px #0000004f;
@@ -96,7 +100,7 @@ section.img > h1 {
 }
 
 section#img01 {
-    height: 30vh;
+    height: 20vh;
     background-size: cover;
     background-image: url(imagens/image001.jpg);
 }
