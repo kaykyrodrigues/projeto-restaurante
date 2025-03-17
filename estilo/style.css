@@ -185,7 +185,9 @@ section#img02 > h2 {
 }
 
 section#img03 {
-
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: center;
     height: 40vh;
     background-size: cover;
     background-repeat: no-repeat;
@@ -193,17 +195,29 @@ section#img03 {
 }
 
 section#img03 > h2 {
-    align-self: center;
-    align-items: center;
+    align-self: CENTER;
+    background-position-y: 5%;
     background-color: #155472;
+    box-shadow: 2px 2px rgba(0, 0, 0, 0.178);
     padding: 30px;
+    border-radius: 6px;
 }
 
-section#img03 > p#logo {    
-
-    width: 30px;
+section#img03 > a.rs img {
     background-color: #155472;
-    background-image: url(imagens/logos.png);
-    background-size: contain;
-    background-repeat: no-repeat;
+    width: 50px;
+    margin: 10px;
+    border-radius: 50px;
+    box-shadow: 2px 2px rgba(0, 0, 0, 0.178);
+    box-sizing: border-box;
+}
+
+footer {
+    padding: 20px;
+    text-align: center;
+    background-color: #155472;
+}
+
+footer > p {
+    margin: 10px;
 }
