@@ -17,6 +17,10 @@ Areia: #EEBC69
     color: #F7F2EB;
 }
 
+body, html {
+    width: 100vw;
+    height: 100vh;
+}
 
 header {
     padding: 30px;
@@ -29,6 +33,10 @@ header {
     display: flex;
     flex-flow: row nowrap;
     justify-content: center;
+}
+
+header > h1 {
+    font-size: 0.9em;
 }
 
 header > nav > a {
@@ -220,4 +228,9 @@ footer {
 
 footer > p {
     margin: 10px;
+}
+
+::-webkit-scrollbar{
+    width: 0px;
+    height: 0px;
 }
