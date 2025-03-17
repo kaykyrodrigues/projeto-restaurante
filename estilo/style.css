@@ -20,6 +20,7 @@ Areia: #EEBC69
 body, html {
     width: 100vw;
     height: 100vh;
+    background-color: #155472;
 }
 
 header {
@@ -35,15 +36,11 @@ header {
     justify-content: center;
 }
 
-header > h1 {
-    font-size: 0.9em;
-}
-
 header > nav > a {
     color: #F7F2EB;
     text-decoration: none;
     margin: 7px;
-    font-size: 0.76em;
+    font-size: 0.70em;
 }
 
 a.botao1:hover {
@@ -167,7 +164,7 @@ section.img > h1 {
     align-self: center;
     color: #F7F2EB;
     text-shadow: 5px solid rgb(0, 0, 0);
-    font-size: 2em;
+    font-size: 1.8em;
 
 }
 
