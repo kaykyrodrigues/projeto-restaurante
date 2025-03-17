@@ -8,3 +8,36 @@ Branco: #F7F2EB
 Areia: #EEBC69
 
 */
+
+header {
+    display: flex;
+    flex-flow: row nowrap;
+}
+
+header > nav > a {
+    font-size: 1em;
+}
+
+section.img {
+    display: flex;
+    flex-flow: row nowrap;
+}
+
+section#img01 {
+    height: 55vh;
+    background-size: cover;
+}
+
+section#img01 > h1 {
+    font-size: 3em;
+}
+
+section.ciano {
+    height: 60vh;
+}
+
+section.ciano > p {
+    margin: auto;
+    font-size: 1em;
+    width: 20vw;
+}
