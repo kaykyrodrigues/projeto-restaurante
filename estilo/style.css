@@ -94,14 +94,16 @@ section.ciano > p {
     margin: 10px;
     font-size: 0.90em;
     text-shadow: 1px solid black;
+    text-align: justify;
 }
 
-section.ciano > p.opc {
+section.ciano > a.opc {
     align-self: center;
     text-shadow: 1px solid black;
+    margin: 5px;
 }
 
-p.opc:hover {
+a.opc:hover {
     background-color: #F7F2EB;
     color: #155472;
     padding: 6px;
@@ -131,6 +133,7 @@ section.ciano > p#ip3 {
     background-size: cover;
     background-repeat: no-repeat;
     border-radius: 5px;
+    
 }
 
 section.ciano > a#order {

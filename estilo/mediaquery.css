@@ -9,35 +9,44 @@ Areia: #EEBC69
 
 */
 
-header {
-    display: flex;
-    flex-flow: row nowrap;
+@media screen and (min-width:600px) and (max-width: 992px) {
+
+    header {
+        display: flex;
+        flex-flow: row nowrap;
+        font-size: 1.2em;
+    }
+
+    section#img01 {
+        height: 50vh;
+        background-attachment: fixed;
+        background-position: center center;
+    }
+
+    section#img01 > h1 {
+        font-size: 2.5em;
+    }
+
+    section#img02 {
+        height: 40vh;
+        background-size: contain;
+        background-size: cover;
+    }
+
+    section#img02 > h2 {
+        font-size: 2.5em;
+        width: 300px;
+        text-align: center;
+    }
+
+    section.ciano > p {
+        width: 400px;
+        align-self: center;
+        text-align: justify;
+    }
+
+    p.opc {
+        align-self: center;
+    }
 }
 
-header > nav > a {
-    font-size: 1em;
-}
-
-section.img {
-    display: flex;
-    flex-flow: row nowrap;
-}
-
-section#img01 {
-    height: 55vh;
-    background-size: cover;
-}
-
-section#img01 > h1 {
-    font-size: 3em;
-}
-
-section.ciano {
-    height: 60vh;
-}
-
-section.ciano > p {
-    margin: auto;
-    font-size: 1em;
-    width: 20vw;
-}
